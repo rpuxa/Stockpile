@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stockpile</string>
+    <string name="api_maps_key">AIzaSyBDe5fZbq2u4wAVjmg-O9uZBeFMXuyQl9I</string>
+    <string name="price">%.2f$</string>
+    <string name="location_template">Location: %s</string>
+    <string name="location_is_undefined">Undefined</string>
+    <string name="location_is_defined">%.3f, %.3f</string>
+    <string name="product_editing">Product editing</string>
+    <string name="creation">Product creation</string>
+    <string name="name">Name</string>
+    <string name="price_text">Price</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="the_list_is_empty">The list is empty :(</string>
+    <string name="accept">Accept</string>
+    <string name="choose_location">Choose location</string>
+    <string name="save_to_file">Save to file</string>
+    <string name="load_from_file">Load from file</string>
+    <string name="successfully_saved">Successfully saved!</string>
+    <string name="successfully_loaded">successfully loaded!</string>
+    <string name="error">Something went wrong</string>
+    <string name="accept_to_save">Accept permission to save to file</string>
+    <string name="accept_to_load">Accept permission to load from file</string>
+    <string name="search">Search</string>
+</resources>

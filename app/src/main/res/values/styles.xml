@@ -1,0 +1,27 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:itemBackground">@android:color/white</item>
+        <item name="android:itemTextAppearance">@style/MenuTextAppearance</item>
+    </style>
+
+    <style name="MenuTextAppearance" parent="AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BaseButtonStyle" parent="AppTheme">
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ColoredButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/colored_round_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
